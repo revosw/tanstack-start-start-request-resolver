@@ -1,0 +1,19 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"linter": {
+		"rules": {
+			"recommended": false
+		}
+	},
+	"formatter": {
+		"includes": [
+			"src/**/*",
+			"!src/routeTree.gen.ts",
+			"biome.json",
+			"package.json",
+			"tsconfig.json",
+			"!pnpm-lock.yaml",
+			"vite.config.json"
+		]
+	}
+}
